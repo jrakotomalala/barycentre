@@ -1,5 +1,10 @@
-*******
-User Story:
+Project Barycentre
+==================
+Le projet Barycentre permet de calculer le point GPS optimal central d'un ensemble de coordonnées GPS.
+
+US1:
+----
+
 En tant qu'utilisateur de l'application ayant plusieurs amis associés, je souhaite organiser une rendez-vous à un lieu qui représente le barycentre de tout le monde.
 
 Critères d'acceptance:
