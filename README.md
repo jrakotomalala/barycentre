@@ -7,7 +7,7 @@ US1:
 
 En tant qu'utilisateur de l'application ayant plusieurs amis associés, je souhaite organiser une rendez-vous à un lieu qui représente le barycentre de tout le monde.
 
-Critères d'acceptance:
+### Critères d'acceptance:
     - chaque personne est identifiée par ses coordonnées GPS (lieu de travail, maison) 
     - au moment du calcul, les personnes peuvent être soit au travail soit à la maison
     - dans cette version, le barycentre représente tout simplement le point central pour tout le monde du point de vue GPS
