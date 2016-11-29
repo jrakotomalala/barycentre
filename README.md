@@ -1,15 +1,16 @@
 Project Barycentre
 ==================
-Le projet Barycentre permet de calculer le point GPS optimal central d'un ensemble de coordonnées GPS.
+Le projet Barycentre fournit une d'API permet REST de calculer le point GPS optimal central d'un ensemble de coordonnées GPS.
 
 US1:
 ----
 
-En tant qu'utilisateur de l'application ayant plusieurs amis associés, je souhaite organiser une rendez-vous à un lieu qui représente le barycentre de tout le monde.
+En tant qu'utilisateur de l'API, je souhaite fournir une liste de coordonnées GPS, afin d'avoir en retour le point central de ces points.
 
 ### Critères d'acceptance:
-    - chaque personne est identifiée par ses coordonnées GPS (lieu de travail, maison) 
-    - au moment du calcul, les personnes peuvent être soit au travail soit à la maison
-    - dans cette version, le barycentre représente tout simplement le point central pour tout le monde du point de vue GPS
-    - l'ensemble est visualisable dans un map (google map /  openstreetmap)
+    - Si la liste est vide, ne rien envoyer
+    - Si la liste contient un seul élément x, renvoyer le seul élément 
+        * b : { center: x }
+    - Si la liste contient 2 éléments, renvoyer la coordonnée médiane
+    - Si la liste contient plus de 2 éléments, calculer le barycentre et le renvoyer
 
